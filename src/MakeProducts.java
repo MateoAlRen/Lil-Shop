@@ -21,6 +21,7 @@ public class MakeProducts {
         return stock;
     }
 
+
     public int getOffStock(int num){
         if (num > this.stock){
             System.out.println("There's no many products!");
